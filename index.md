@@ -25,7 +25,7 @@ data: newproductlist
 <td>{{ products.category }}</td>
 <td>{{ products.subcategory }}</td>
 <td>{{ products.manufacturer }}</td>
-<td><a href="{{ products.category | slug }}/{{ products.subcategory | slug }}/{{ products.manufacturer | slug }}/{{ products.product | slug }}/">{{ products.product }}</a></td>
+<td><a href="green-products/{{ products.category | slug }}/{{ products.subcategory | slug }}/{{ products.manufacturer | slug }}/{{ products.product | slug }}/">{{ products.product }}</a></td>
 <td>{{ products.standard }}</td>
 </tr>
 {% endfor %}
