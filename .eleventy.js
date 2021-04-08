@@ -1,0 +1,17 @@
+module.exports = function(eleventyConfig){
+    eleventyConfig.setTemplateFormats([
+        "jpg",
+        "pdf",
+        "md",
+        "njk",
+        "webp"
+      ]);
+
+    return {
+        markdownTemplateEngine: "njk",    
+    dir: {
+        layouts: "_layouts"
+    },
+    }
+   
+};

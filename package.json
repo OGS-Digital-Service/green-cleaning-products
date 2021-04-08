@@ -1,0 +1,26 @@
+{
+  "name": "green-cleaning-products",
+  "version": "1.0.0",
+  "description": "11ty Setup for green cleaning product list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OGS-Digital-Service/green-cleaning-products.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OGS-Digital-Service/green-cleaning-products/issues"
+  },
+  "homepage": "https://github.com/OGS-Digital-Service/green-cleaning-products#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.1.1"
+  }
+}
