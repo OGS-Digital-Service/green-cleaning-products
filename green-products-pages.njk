@@ -9,7 +9,7 @@ permalink: "green-products/{{ products.category | slug }}/{{ products.subcategor
 tags: green
 ---
 {% from '_includes/_components.njk' import button,buttonhero,card,hero,breadcrumbs %} 
-<ol class="flex flex-row flex-wrap mb-6">
+<ol class="flex flex-row flex-wrap mb-6 font-medium">
 {% if products.category %}
 <li class="caret oswald uppercase">{{ products.category }}</li>
 {% else %} {% endif %}

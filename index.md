@@ -4,7 +4,7 @@ title: Green Cleaning Products
 data: newproductlist
 ---
 <div class="flex-row">
-<button type="button" id="test" class="border border-solid border-black p-4 m-4">Clear Filters</button>
+<button type="reset" id="test" class="border border-solid border-black p-4 m-4">Clear Filters</button>
 <label for="filter1"> Filter by Category </label><span class="filter1 border border-solid border-black p-2 m-2"></span> </div>
 
 

@@ -11,14 +11,14 @@
   </head>
 
   <body class="">
-    {% from '../_includes/_components.njk' import unav,nav,footer  %}
+    {% from '../_includes/_components.njk' import unav,nav,footer,unavcurrent,unavcurrentfooter  %}
 
   
-
+    {{unavcurrent ()}}
     {{ nav({ 
-    agencyname: "Digital Services",
+    agencyname: "Office of General Services",
     link: "/",
-    arialabel: "New York State Digital Services",
+    arialabel: "New York State Office of General Services green products list",
     color: "bg-admin-first"
       })}}
     <main class="mx-8 md:mx-20">
@@ -27,25 +27,31 @@
 
 
     {{ footer({ 
-    agencyname: "Digital Services",
+    agencyname: "Office of General Services ",
     link: "/",
-    arialabel: "New York State Digital Services",
+    arialabel: "New York State Office of General Services Green Products List",
     color: "bg-admin-third",
-    facebook:"",
-    twitter: "",
-    instagram:"",
+    facebook:"https://www.facebook.com/NewYorkStateOGS/",
+    twitter: "https://twitter.com/NYS_OGS",
+    instagram:"https://www.instagram.com/nysgeneralservices/",
     items: [
     {
-      text: "Accessibility",
-      link: "#",
-      arialabel:"Link to Agency's Accessibility statement."
+      text: "Privacy Policy",
+      link: "https://ogs.ny.gov/privacy-policy",
+      arialabel:"Link to Agency's privacy policy."
     },
      {
-      text: "Contact",
-      link: "#",
-      arialabel:"Link to Agency's contact information."
-    ]
+      text: "Accessibility",
+      link: "https://ogs.ny.gov/website-accessibility",
+      arialabel:"Link to Agency's accessibility policy."
+     },
+      {
+      text: "Contact Us",
+      link: "https://ogs.ny.gov/contact-office-general-services",
+      arialabel:"Link to Agency's contact page."
+     }
     ]
       })}}
+      {{unavcurrentfooter ()}}
   </body>
 </html>
