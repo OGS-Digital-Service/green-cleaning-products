@@ -7,30 +7,19 @@ pagination:
     addAllPagesToCollections: true
 permalink: "green-products/{{ products.category | slug }}/{{ products.subcategory | slug }}/{{ products.manufacturer | slug }}/{{ products.product | slug }}/"
 tags: green
+title: Green Cleaning Products
 ---
 {% from '_includes/_components.njk' import button,buttonhero,card,hero,breadcrumbs %} 
-<ol class="flex flex-row flex-wrap mb-6 font-medium">
-{% if products.category %}
-<li class="caret oswald uppercase">{{ products.category }}</li>
-{% else %} {% endif %}
-{% if products.subcategory %}
-<li class="caret oswald uppercase">{{ products.subcategory }}</li>
-{% else %} {% endif %}
-{% if products.manufacturer %}
-<li class="caret oswald uppercase">{{ products.manufacturer }}</li>
-{% else %} {% endif %}
-{% if products.product %}
-<li class="caret oswald uppercase">{{ products.product}}</li>
-{% else %} {% endif %}
-</ol> 
 
-<article class="flex justify-center">
+<h1 class="font-extrabold text-4xl pt-6 pb-10"> {{ products.product }} </h1>
+
+<section class="flex justify-center" aria-label="table of product details">
 <table class="border-2 border-solid border-gray-500 text-left md:w-3/4">
 <caption class="font-bold"> Product Details </caption>
 {% if products.category %}
 <tr class="border border-solid border-gray-500">
-    <th scope="row" class="p-3 bg-gray-100">Product Category</th>
-    <td class="p-3">{{ products.category }}</td>
+    <th scope="row"  class="p-3 bg-gray-100">Product Category</th>
+    <td class="p-3" >{{ products.category }}</td>
 </tr>
 {% else %} {% endif %}
 {% if products.subcategory %}
@@ -72,7 +61,7 @@ tags: green
 {% if products.website %}
 <tr class="border border-solid border-gray-500">
     <th scope="row" class="p-3 bg-gray-100">Website</th>
-    <td class="p-3"><a href="{{products.website}}" aria-label="{{products.manufacturer}}{{ products.product }}"> {{ products.website }} </a></td>
+    <td class="p-3"><a href="{{products.website}}" aria-label="website for {{products.manufacturer}} {{ products.product }}"> {{ products.website }} </a></td>
 </tr>
 {% else %} {% endif %}
 {% if products.information %}
@@ -82,7 +71,7 @@ tags: green
 </tr>
 {% else %} {% endif %}
 </table>
-</article>
+</section>
 
 <a href="/" class="mx-auto block w-max p-5 m-8 bg-admin-first no-underline rounded hover:bg-gray-900 hover:text-underline text-white uppercase tracking-widest text-sm font-bold" aria-label="Return to the green products full list"> Return to Green Products List </a> 
 
