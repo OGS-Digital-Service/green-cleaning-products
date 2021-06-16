@@ -1,7 +1,7 @@
 ---
 layout: layout-tablesort.njk
 title: Green Cleaning Products
-data: newproductlist
+data: masterproductlist
 ---
 <div class="flex-row">
 <button type="reset" id="test" class="border border-solid border-black p-4 m-4">Clear Filters</button>
@@ -20,12 +20,12 @@ data: newproductlist
 </tr>
 </thead>
 <tbody>
-{% for products in newproductlist %}
+{% for products in masterproductlist %}
 <tr> 
 <td>{{ products.category }}</td>
 <td>{{ products.subcategory }}</td>
 <td>{{ products.manufacturer }}</td>
-<td><a href="green-products/{{ products.category | slug }}/{{ products.subcategory | slug }}/{{ products.manufacturer | slug }}/{{ products.product | slug }}/">{{ products.product }}</a></td>
+<td><a href="green-products/{{ products.productID }}/{{ products.category | slug }}/{{ products.manufacturer | slug }}/{{ products.product | slug }}/">{{ products.product }}</a></td>
 <td>{{ products.standard }}</td>
 </tr>
 {% endfor %}

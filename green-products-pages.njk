@@ -1,11 +1,11 @@
 ---
 layout: layout.njk
 pagination:
-    data: newproductlist
+    data: masterproductlist
     size: 1
     alias: products
     addAllPagesToCollections: true
-permalink: "green-products/{{ products.category | slug }}/{{ products.subcategory | slug }}/{{ products.manufacturer | slug }}/{{ products.product | slug }}/"
+permalink: "green-products/{{ products.productID }}/{{ products.category | slug }}/{{ products.manufacturer | slug }}/{{ products.product | slug }}/"
 tags: green
 title: Green Cleaning Products
 ---
