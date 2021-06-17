@@ -28,7 +28,7 @@ data: masterproductlist
 </td> 
 <td>{{ products.manufacturer }}</td>
 <td><a href="green-products/{{ products.productID }}/{{ products.category | slug }}/{{ products.manufacturer | slug }}/{{ products.product | slug }}/">{{ products.product }}</a></td>
-<td>{% if products.GsCertified %}<span class="bg-gray-200 uppercase text-xs p-1 m-1 whitespace-nowrap">{{ products.GsCertified }}</span><br>{% endif %}{% if products.EcCertified %}<span class="bg-gray-200 uppercase text-xs p-1 m-1 whitespace-nowrap">{{ products.EcCertified }}</span><br>{% endif %}{% if products.CarpetStyle %}<span class="bg-gray-200 uppercase text-xs p-1 m-1 whitespace-nowrap">{{ products.CarpetStyle }}</span>{% endif %}</td>
+<td>{% if products.GsCertified %}<span class="bg-gray-200 uppercase text-xs p-1 m-1 whitespace-nowrap">{{ products.GsCertified }}</span>{% endif %}{% if products.EcCertified %}<span class="bg-gray-200 uppercase text-xs p-1 m-1 whitespace-nowrap">{{ products.EcCertified }}</span>{% endif %}{% if products.CarpetStyle %}<span class="bg-gray-200 uppercase text-xs p-1 m-1 whitespace-nowrap">{{ products.CarpetStyle }}</span>{% endif %}</td>
 </tr>
 {% endfor %}
 </tbody>
