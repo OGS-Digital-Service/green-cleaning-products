@@ -23,10 +23,12 @@ data: masterproductlist
 {% for products in masterproductlist %}
 <tr> 
 <td>{{ products.category }}</td>
-<td>{{ products.subcategory }}</td>
+<td>{%if products.general and products.bath and products.glass and products.carpet and products.vacuum !==null %} {% else %}
+{% if products.general %} <span class="bg-gray-200 uppercase text-xs p-1 m-1">{{ products.general }}</span>{% endif %}{% if products.bath %}<span class="bg-gray-200 uppercase text-xs p-1 m-1">{{ products.bath }}</span>{% endif %}{% if products.glass %}<span class="bg-gray-200 uppercase text-xs p-1 m-1">{{ products.glass }}</span>{% endif %}{% if products.carpet %}<span class="bg-gray-200 uppercase text-xs p-1 m-1">{{ products.carpet }}</span>{% endif %}{% if products.vacuum %}<span class="bg-gray-200 uppercase text-xs p-1 m-1 whitespace-nowrap">{{ products.vacuum }}</span>{% endif %} {%endif%}
+</td> 
 <td>{{ products.manufacturer }}</td>
 <td><a href="green-products/{{ products.productID }}/{{ products.category | slug }}/{{ products.manufacturer | slug }}/{{ products.product | slug }}/">{{ products.product }}</a></td>
-<td>{{ products.standard }}</td>
+<td>{% if products.GsCertified %}<span class="bg-gray-200 uppercase text-xs p-1 m-1 whitespace-nowrap">{{ products.GsCertified }}</span><br>{% endif %}{% if products.EcCertified %}<span class="bg-gray-200 uppercase text-xs p-1 m-1 whitespace-nowrap">{{ products.EcCertified }}</span><br>{% endif %}{% if products.CarpetStyle %}<span class="bg-gray-200 uppercase text-xs p-1 m-1 whitespace-nowrap">{{ products.CarpetStyle }}</span>{% endif %}</td>
 </tr>
 {% endfor %}
 </tbody>
