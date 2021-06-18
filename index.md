@@ -4,12 +4,19 @@ title: Green Cleaning Products
 data: masterproductlist
 ---
 <div class="flex-row">
-<button type="reset" id="test" class="border border-solid border-black p-4 m-4">Clear Filters</button>
+<script>function ClearFilters() {
+  $('.clearthis').val('');  
+  $('.dataTables_filter').val('');
+	var table = $('#productstable').DataTable();
+	table
+	.search( '' )
+	.columns().search( '' )
+	.draw();}</script>
+<button class="border border-solid border-black p-4 m-4" onclick="ClearFilters()" >Clear Filters</button>
 <label for="filter1"> Filter by Category </label><span class="filter1 border border-solid border-black p-2 m-2"></span> </div>
 
 
-
-<table id="example" class="display">
+<table id="productstable" class="display">
 <thead class="">
 <tr>
 <th>Product Category </th> 

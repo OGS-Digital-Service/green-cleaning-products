@@ -61,9 +61,9 @@
    
 
     <title>Green Cleaning Products</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.24/b-1.7.0/b-html5-1.7.0/sb-1.0.1/sp-1.2.2/datatables.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/datatables.min.css"/>
  
-<script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.24/b-1.7.0/b-html5-1.7.0/sb-1.0.1/sp-1.2.2/datatables.min.js"></script>
+<script type="text/javascript" src="/js/datatables.min.js"></script>
 
                  
         
@@ -74,12 +74,12 @@
   <script>
  
 $(document).ready(function() {
-    $('#example').DataTable( {
+    $('#productstable').DataTable( {
        "scrollX": true,
         initComplete: function () {
             this.api().columns(0).every( function () {
                 var column = this;
-                var select = $('<select><option value=""></option></select>')
+                var select = $('<select class="clearthis"><option value=""></option></select>')
                     .appendTo( $(".filter1").empty() )
                     .on( 'change', function () {
                         var val = $.fn.dataTable.util.escapeRegex(
@@ -102,6 +102,8 @@ $(document).ready(function() {
 
 
   </script>
+
+
     
 
   
@@ -143,9 +145,17 @@ $(document).ready(function() {
 
     <main class="mx-8 md:mx-20">
     <div class="flex-row">
-<button type="reset" id="test" class="border border-solid border-black p-4 m-4">Clear Filters</button>
+<script>function ClearFilters() {
+  $('.clearthis').val('');  
+  $('.dataTables_filter').val('');
+	var table = $('#productstable').DataTable();
+	table
+	.search( '' )
+	.columns().search( '' )
+	.draw();}</script>
+<button class="border border-solid border-black p-4 m-4" onclick="ClearFilters()" >Clear Filters</button>
 <label for="filter1"> Filter by Category </label><span class="filter1 border border-solid border-black p-2 m-2"></span> </div>
-<table id="example" class="display">
+<table id="productstable" class="display">
 <thead class="">
 <tr>
 <th>Product Category </th> 
