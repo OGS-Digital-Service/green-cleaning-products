@@ -21,6 +21,9 @@
 $(document).ready(function() {
     $('#productstable').DataTable( {
        "scrollX": true,
+       "lengthChange": false,
+       "pageLength": 25,
+       
         initComplete: function () {
             this.api().columns(0).every( function () {
                 var column = this;

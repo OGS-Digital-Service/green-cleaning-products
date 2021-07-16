@@ -3,17 +3,20 @@ layout: layout-tablesort.njk
 title: Green Cleaning Products
 data: masterproductlist
 ---
-<div class="flex-row">
-<button class="border border-solid border-black p-4 m-4" onclick="ClearFilters()" >Clear Filters</button>
-<label for="filter1"> Filter by Category </label><span class="filter1 border border-solid border-black p-2 m-2"></span> </div>
 
+# {{title}}
+
+<div class="inline-block position-options ml-64">
+<label for="filter1"> Filter by Category </label><span class="filter1 border border-solid border-black p-2 m-2"></span> 
+<button class="border border-solid border-black py-2 px-4 m-4 hover:bg-gray-100 font-bold" onclick="ClearFilters()" >Clear Filters</button>
+</div>
 
 <table id="productstable" class="display">
 <thead class="">
 <tr>
-<th>Product Category </th> 
+<th>Product Category </th>  
 <th>Product Type</th>
-<th>Product Manufacturer</th> 
+<th>Product Manufacturer</th>  
 <th>Product Name</th>
 <th>Meets Standard</th>
 </tr>
