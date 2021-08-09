@@ -6,3 +6,8 @@ function ClearFilters() {
 	.search( '' )
 	.columns().search( '' )
 	.draw();}
+
+
+
+
+

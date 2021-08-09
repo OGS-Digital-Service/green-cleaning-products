@@ -27,7 +27,7 @@ $(document).ready(function() {
         initComplete: function () {
             this.api().columns(0).every( function () {
                 var column = this;
-                var select = $('<select class="clearthis"><option value=""></option></select>')
+                var select = $('<select class="clearthis" id="category_list"><option value=""></option></select>')
                     .appendTo( $(".filter1").empty() )
                     .on( 'change', function () {
                         var val = $.fn.dataTable.util.escapeRegex(
@@ -38,7 +38,7 @@ $(document).ready(function() {
                             .search( val ? '^'+val+'$' : '', true, false )
                             .draw();
                     } );
- 
+
                 column.data().unique().sort().each( function ( d, j ) {
                     select.append( '<option value="'+d+'">'+d+'</option>' )
                 } );
@@ -50,6 +50,7 @@ $(document).ready(function() {
 
 
   </script>
+
 
 
     {% from '../_includes/_components.njk' import unav,nav,footer,unavcurrent,unavcurrentfooter   %}
