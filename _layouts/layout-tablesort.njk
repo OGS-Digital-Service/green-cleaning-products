@@ -27,7 +27,7 @@ $(document).ready(function() {
         initComplete: function () {
             this.api().columns(0).every( function () {
                 var column = this;
-                var select = $('<select class="clearthis" id="category_list"><option value=""></option></select>')
+                var select = $('<select class="clearthis width_modifier" id="category_list"><option value=""></option></select>')
                     .appendTo( $(".filter1").empty() )
                     .on( 'change', function () {
                         var val = $.fn.dataTable.util.escapeRegex(

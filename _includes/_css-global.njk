@@ -12,7 +12,16 @@
         text-decoration:underline;
       }
       main a {
-        color: #007ac2;
+        color: #0077bf;
+      }
+      table a:hover {
+        font-weight: bold;
+      }
+      table a:active {
+        font-weight: bold;
+      }
+      table a:focus{
+        font-weight: bold;
       }
       main ol.list {
         list-style-type:numeral;
@@ -48,24 +57,59 @@
       .caret:last-of-type::after{
         content: none;
       }
-
-      .position-options {
-       
-      
-
-      }
-
-      table th {
+      .dataTable th {
         background-color: #62666A;
         color: #fff;
       }
       .dataTables_filter {
         margin-bottom: 1.75em;
-        text-align:left !important;
-        margin-top: -55px;
+        text-align: left !important;
+        float: none !important;
       }
-
-      
+      @media (min-width: 1315px) {
+      .search_modifier {
+        width:24rem;
+      }
+       .width_modifier {
+        width:24rem;
+      }
+      .height_modifier {
+        margin-bottom: -55px;
+        z-index: 500;
+        position: relative;
+      }
+      }
+       @media (max-width: 1314px) {
+      .search_modifier {
+        width:16rem;
+      }
+       .width_modifier {
+        width:16rem;
+      }
+      .height_modifier {
+        margin-bottom: -55px;
+        z-index: 500;
+        position: relative;
+      }
+      }
+      @media (max-width: 1050px) {
+      .search_modifier {
+        width:20rem;
+      }
+       .width_modifier {
+        width:12rem;
+      }
+      .height_modifier {
+        margin-bottom: 20px;
+        z-index: 500;
+        position: relative;
+      }
+      }
+      @media (max-width: 675px) {
+        .button_modifier {
+          width: 90%;
+        }
+      }
 
       </style>
    

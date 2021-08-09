@@ -7,11 +7,13 @@ data: masterproductlist
 # {{title}}
 
 
-
-<div class="inline-block md:ml-64 md:mb-0 mb-12">
-<label for="category_list" class="p-0 m-0"> Filter by Category </label><span class="filter1 border border-solid border-black p-2"></span> 
-<button class="border border-solid border-black py-2 px-4 m-4 hover:bg-gray-100 font-bold" onclick="ClearFilters()" >Clear Filters</button>
+<button class="border border-solid border-black py-2 px-4 m-4 hover:bg-gray-100 font-bold button_modifier md:hidden" onclick="ClearFilters()" >Clear Filters</button> 
+<div class="md:float-right float-left height_modifier">
+<label for="category_list" class=""><strong> Filter by Category: </strong> </label><span class="filter1 border border-solid border-black p-2.5"></span>
+<button class="border border-solid border-black py-2 px-4 m-4 hover:bg-gray-100 font-bold hidden md:inline" onclick="ClearFilters()" >Clear Filters</button> 
 </div>
+
+
 
 <table id="productstable" class="display">
 <thead class="">
