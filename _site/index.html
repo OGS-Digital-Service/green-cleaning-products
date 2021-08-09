@@ -145,8 +145,8 @@ $(document).ready(function() {
         initComplete: function () {
             this.api().columns(0).every( function () {
                 var column = this;
-                var select = $('<select class="clearthis width_modifier" id="category_list"><option value=""></option></select>')
-                    .appendTo( $(".filter1").empty() )
+                var select = $('<select class="clearthis width_modifier border border-solid border-black p-2.5 mt-2 md:mt-0" id="category_list"><option value=""></option></select>')
+                    .appendTo( $(".filter1") )
                     .on( 'change', function () {
                         var val = $.fn.dataTable.util.escapeRegex(
                             $(this).val()
@@ -214,7 +214,7 @@ $(document).ready(function() {
     <h1>Green Cleaning Products</h1>
 <p><button class="border border-solid border-black py-2 px-4 m-4 hover:bg-gray-100 font-bold button_modifier md:hidden" onclick="ClearFilters()" >Clear Filters</button></p>
 <div class="md:float-right float-left height_modifier">
-<label for="category_list" class=""><strong> Filter by Category: </strong> </label><span class="filter1 border border-solid border-black p-2.5"></span>
+<label for="category_list" class="filter1"><strong> Filter by Category: </strong></label>
 <button class="border border-solid border-black py-2 px-4 m-4 hover:bg-gray-100 font-bold hidden md:inline" onclick="ClearFilters()" >Clear Filters</button> 
 </div>
 <table id="productstable" class="display">

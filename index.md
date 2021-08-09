@@ -9,7 +9,7 @@ data: masterproductlist
 
 <button class="border border-solid border-black py-2 px-4 m-4 hover:bg-gray-100 font-bold button_modifier md:hidden" onclick="ClearFilters()" >Clear Filters</button> 
 <div class="md:float-right float-left height_modifier">
-<label for="category_list" class=""><strong> Filter by Category: </strong> </label><span class="filter1 border border-solid border-black p-2.5"></span>
+<label for="category_list" class="filter1"><strong> Filter by Category: </strong></label>
 <button class="border border-solid border-black py-2 px-4 m-4 hover:bg-gray-100 font-bold hidden md:inline" onclick="ClearFilters()" >Clear Filters</button> 
 </div>
 
