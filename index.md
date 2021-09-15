@@ -13,8 +13,6 @@ data: masterproductlist
 <button class="border border-solid border-black py-2 px-4 m-4 hover:bg-gray-100 font-bold hidden md:inline" onclick="ClearFilters()" >Clear Filters</button> 
 </div>
 
-
-
 <table id="productstable" class="display">
 <thead class="">
 <tr>
