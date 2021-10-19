@@ -20,7 +20,7 @@ data: masterproductlist
 <th>Product Type</th>
 <th>Product Manufacturer</th>  
 <th>Product Name</th>
-<th>Meets Standard</th>
+<th>Certification</th>
 </tr>
 </thead>
 <tbody>
