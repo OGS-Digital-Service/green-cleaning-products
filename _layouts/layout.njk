@@ -9,7 +9,7 @@
   
   </head>
   <body class="">
-  <a href="#main-site-content-for-skiplink" class="sr-only focus:not-sr-only">Skip to Main Content</a>
+  <a href="#main" class="sr-only focus:not-sr-only">Skip to Main Content</a>
     {% from '../_includes/_components.njk' import unav,nav,footer,unavcurrent,unavcurrentfooter   %}
 
    
@@ -20,7 +20,8 @@
     arialabel: "New York State Office of General Services green products list",
     color: "bg-admin-first"
       })}}
-    <main class="mx-8 md:mx-20" id="#main-site-content-for-skiplink">
+    <main class="mx-8 md:mx-20" id="main">
+       
     {{ content | safe }}
     </main>
 

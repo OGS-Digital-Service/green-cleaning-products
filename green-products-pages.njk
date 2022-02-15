@@ -58,6 +58,12 @@ title: Green Cleaning Products
     <td class="p-3">{{ products.dilution }}</td>
 </tr>
 {% else %} {% endif %}
+{% if products.GsCertified or products.EcCertified or products.CarpetStyle %}
+<tr class="border border-solid border-gray-500">
+    <th scope="row" class="p-3 bg-gray-100">Certification</th>
+    <td class="p-3">{{ products.GsCertified }} {{ products.EcCertified }} {{ products.CarpetStyle }}</td>
+</tr>
+{% else %} {% endif %}
 {% if products.website %}
 <tr class="border border-solid border-gray-500">
     <th scope="row" class="p-3 bg-gray-100">Website</th>
