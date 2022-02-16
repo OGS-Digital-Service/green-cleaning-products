@@ -1,6 +1,6 @@
 ---
 layout: layout-tablesort.njk
-title: Green Cleaning Products
+title: Approved Green Cleaning Products List
 data: masterproductlist
 ---
 
