@@ -12,3 +12,7 @@ This list / site requires a few things:
 5. If you reassign totally new product IDs to everything, all links people have bookmarked will break. See #5 above
 6. Keep backups of both the csv and masterproductlist.json in the _dataarchive folder in case we need to roll back.
 7. 11ty doesn't purge unused pages that are no longer in the csv (or at least I haven't set it up to) so before rebuild make sure to delete the entire _site --> green-products folder so that all new pages are generated. 
+
+Location in v:drive V:\InfoResMgmnt\Staging\GreenCleaning_Drupal\2022 
+
+
