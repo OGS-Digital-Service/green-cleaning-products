@@ -2,7 +2,7 @@
 permalink: false
 ---
 # green-cleaning-products
-11ty Setup for green cleaning product list
+11ty Setup for green cleaning product list. It has a real home now! https://online2.ogs.ny.gov/greencleaning/
 
 This list / site requires a few things:
 1. Every product in the csv & and converted json *requires a unique product ID* 
