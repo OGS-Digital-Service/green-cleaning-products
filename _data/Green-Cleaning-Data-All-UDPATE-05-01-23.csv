@@ -147,7 +147,6 @@
 1146,Cleaning,General,,,,,TriLeaf Distribution Trifeul,Blue Planet Liquid Dish Soap,,Yes,RTU,,,ECOLOGO®,
 1147,Cleaning,General,,,,,TriLeaf Distribution Trifeul,Blue Planet Multi Surface Cleaner,,Yes,,,,ECOLOGO®,
 1149,Cleaning,General,,,,,Bona US,Bona SuperCourt Cleaner,us.bona.com/,No,"1:128,",,Green Seal®,,
-1150,Cleaning,General,,,,,"Diversey, Inc.",Bona SuperCourt Cleaner,www.diversey.com/,No,"1:128,",,Green Seal®,,
 1154,Hand Soaps,,,,,,Royal Papers Inc.,Botanical Foam Handwash,,Yes,,Ready to Use,,ECOLOGO®,
 1155,Cleaning,,Bath,,,,Con-O-Lab,Bowl Cleaner,,Yes,,,,ECOLOGO®,Gold Level
 1156,Cleaning,,Bath,,,,PortionPac Chemical Corporation,BowlPac Concentrated Bathroom Cleaner,www.portionpaccorp.com/,Yes,"1:18,",Toilet Bowl Cleaner,Green Seal®,,
@@ -624,7 +623,6 @@
 1641,Cleaning,,,,Carpet,,Enviro-Solutions,ES 87 Carpet Extraction Cleaner,www.enviro-solution.com/,Yes,,,Green Seal®,,
 1642,Cleaning,,,,Carpet,,Enviro-Solutions,ES 88 Spot & Stain Remover,www.enviro-solution.com/,No,,,,ECOLOGO®,
 1643,Floor Finish,,,,,,Enviro-Solutions,ES-81 Peak Floor Finish,www.enviro-solution.com/productselection/floorcare.htmlNo. ,No,,,,,
-1644,Floor Finish Stripper,,,,,,Enviro-Solutions,ES-90C Clean Cut Concentrated Floor Stripper,www.enviro-solution.com/productselection/floorcare.htmlNo. ,No,, GS-40,Green Seal®,,
 1645,Hand Soaps,,,,,,"Stockhausen, Inc. / STOKO Skin Care","Estesol Hand, Hair & Body Cleanser",www.stokoskincare.com,Yes,,,Green Seal®,,Bronze Level
 1646,Hand Soaps,,,,,,"Stockhausen, Inc. / STOKO Skin Care",Estesol Light Duty Hand Cleaner,www.stokoskincare.com/,Yes,,,Green Seal®,,
 1647,Hand Soaps,,,,,,SC Johnson Professional,"Estesol? Hand, Hair & Body Wash",www.debgroup.com/us/products/estesol-hair-body,Yes,,,Green Seal®,,
@@ -714,7 +712,6 @@
 1739,Cleaning,,,Glass,,,optionsforlife,Glass & Window Cleaner Concentrate,www.optionsproducts.com/,No,"1:64,",,Green Seal®,,
 1740,Cleaning,,,Glass,,,"Greenmaker Industries, LLC",Glass & Window Concentrate,www.greendepot.com/,No,,,Green Seal®,,
 1741,Cleaning,,,Glass,,,Essential Industries,Glass Advantage,www.essind.com/,No,,,Green Seal®,,
-1742,Cleaning,,,Glass,,,"Medline Industries, Inc.",Glass Cleaner,www.medline.com,Yes,"1:32,",,Green Seal®,,
 1743,Cleaning,,,Glass,,,Con-O-Lab,Glass Cleaner,,Yes,,,,ECOLOGO®,
 1744,Cleaning,,,Glass,,,Victorian Epicure Inc.,Glass Cleaner,,No,,,,ECOLOGO®,
 1745,Cleaning,,,Glass,,,PortionPac Chemical Corporation,GlassPac Concentrated Glass Cleaner,www.portionpaccorp.com/,Yes,"1:32,",,Green Seal®,,
@@ -1059,7 +1056,6 @@
 2091,Cleaning,General,,,,,Essential Industries,Multi-Purpose Cleaner,www.essind.com/,No,,,Green Seal®,,
 2092,Cleaning,General,,,,,Green Bucket,Multi-Purpose Cleaner,www.greenbucket.biz/,No,"1:32,",,Green Seal®,,
 2093,Cleaning,General,,,,,optionsforlife,Multi-Purpose Cleaner,,No,"1:32, 1:128, 1:256",,Green Seal®,,
-2094,Cleaning,General,,,,,"Medline Industries, Inc.",Multi-Surface Peroxide,www.medline.com,Yes,,Cold Water,Green Seal®,,
 2095,Cleaning,General,,Glass,,,Arrow Chemical Corp,Multi-Tasking Electrolytic Cleaner/Conditioner/Restorer,www.arrowchemical.net/,No,1/2 to 1 1/2,,,ECOLOGO®,
 2096,Cleaning,,,Glass,,,Arrow Chemical Corp,Multi-Tasking G-Glass Concentrate,www.arrowchemical.net/,No,1 to 85,,,ECOLOGO®,
 2097,Hand Soaps,,,,,,PortionPac Chemical,MyTerra Hand Wash Foam,portionpaccorp.com/ ,Yes,,,Green Seal®,,
@@ -1085,7 +1081,6 @@
 2117,Cleaning,General,,,,,Bebbington Industries Incorporated,Neutral Cleaner BG100-XX,www.bebbingtonindustries.com/,No,"1:80,",,,ECOLOGO®,Bronze Level
 2118,Cleaning,General,,,,,Bebbington Industries Incorporated,Neutral Cleaner GK100-XX,www.bebbingtonindustries.com/,No,"1:40,",,,ECOLOGO®,Bronze Level
 2119,Cleaning,General,,,,,Essential Industries,Neutral Cleaner Plus,www.essind.com/,Yes,,,Green Seal®,,
-2120,Cleaning,General,,,,,"Medline Industries, Inc.",Neutral Floor Cleaner,www.medline.com,Yes,,,Green Seal®,,
 2121,Cleaning,General,,,,,Tennant Company,Neutral pH Daily Cleaner,www.tennantco.com/en_us/localeselector.html?nolocale=true,No,"1:512,",,Green Seal®,,
 2122,Vacuum Cleaners,,,,,Commercial Backpack,Nilfisk - CFM,Nilfisk GD10,www.nilfiskcfm.com,No,,,,,Bronze Level
 2123,Hand Soaps,,,,,,Armchem International ,No Touch Luxury Foam Up Hand Soap,www.armchem.com,Yes,,,Green Seal®,,Bronze Level
@@ -2072,3 +2067,11 @@
 4020,Hand Soaps,,,,,,"Spartan Chemical Company, Inc.",Purfoma Hand Sanitizer 70% Alcohol,http://www.spartanchemical.com,Yes,,,Green Seal®,,
 4021,Hand Soaps,,,,,,"Spartan Chemical Company, Inc.",Purfoma Healthcare Hand Sanitizer,http://www.spartanchemical.com,No,,,Green Seal®,,
 4022,Hand Soaps,,,,,,Ecolab,FaciliPro Protecting Foam Hand Sanitizer,http://www.ecolab.com,No,,,Green Seal®,,
+4023,Cleaning,General,,,,,Diversey India Hygiene Pvt Ltd,Alpha-HP Multi Surface Cleaner,https://diversey.com/en/product-catalogue/alpha-hp-multi-surface-disinfectant-cleaner-5549211-nam,Yes,"1:128,",,Green Seal®,,
+4024,Cleaning,General,,,,,Diversey India Hygiene Pvt Ltd,Stride Citrus SC Neutral Cleaner,https://diversey.com/en/product-catalogue/stride-citrus-neutral-cleaner-93063390-nam,Yes,"1:256,",,Green Seal®,,
+4025,Cleaning,,Bath,,,,Diversey India Hygiene Pvt Ltd,Crew Bathroom Cleaner and Scale Remover,https://diversey.com/en/product-catalogue/crew-bathroom-cleaner-scale-remover-93145310-nam,No,"1:18,",,Green Seal®,,
+4027,Cleaning,,,,Carpet,,PortionPac Chemical Corporation,CarpetPac™ Carpet Encapsulation Cleaner,https://portionpac.com/product-systems/portionpac/carpet-care-system/,No,"1:16,",,Green Seal®,,
+4028,Cleaning,,,,Carpet,,PortionPac Chemical Corporation,CarpetPac™ Carpet Spotter,https://portionpac.com/product-systems/portionpac/carpet-care-system/,No,"1:16,",,Green Seal®,,
+4029,Hand Soaps,,,,,,von Drehle Corporation,Fresh Scent Clear Foam Soap,,Yes,,,Green Seal®,,
+4030,Cleaning,General,,,,,MicroShield 360,MicroShield 360 Pure Cleaner & Degreaser as generated by MicroShield 360 Pure Machine System,https://microshield360.com/pure-products/,No,"7:1,",,Green Seal®,,
+4031,Cleaning,General,,,,,"Next-Gen Supply Group, Inc.",MixMate #11 Scrub mate,,Yes,"1:64,",,Green Seal®,,
