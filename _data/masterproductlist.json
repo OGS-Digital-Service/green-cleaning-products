@@ -37690,5 +37690,23 @@
     "GsCertified": "Green Seal®",
     "EcCertified": "",
     "CarpetStyle": ""
+  },
+  {
+    "productID": 4050,
+    "category": "Cleaning",
+    "general": "General",
+    "bath": "",
+    "glass": "",
+    "carpet": "",
+    "vacuum": "",
+    "manufacturer": "ClaraVita Clean",
+    "product": "ClaraVita Clean",
+    "website": "https://claravitaclean.com/",
+    "fragrance": "No",
+    "dilution": "1:10",
+    "information": "",
+    "GsCertified": "Green Seal®",
+    "EcCertified": "",
+    "CarpetStyle": ""
   }
 ]
