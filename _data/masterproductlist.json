@@ -38284,5 +38284,41 @@
     "GsCertified": "Green Seal®",
     "EcCertified": "",
     "CarpetStyle": ""
+  },
+  {
+    "productID": 4083,
+    "category": "Cleaning",
+    "general": "",
+    "bath": "",
+    "glass": "",
+    "carpet": "",
+    "vacuum": "",
+    "manufacturer": "Gordon Food Service",
+    "product": "Array Liquid Extra Mild White Handwash",
+    "website": "",
+    "fragrance": "",
+    "dilution": "",
+    "information": "",
+    "GsCertified": "Green Seal®",
+    "EcCertified": "",
+    "CarpetStyle": ""
+  },
+  {
+    "productID": 4084,
+    "category": "Cleaning",
+    "general": "",
+    "bath": "",
+    "glass": "",
+    "carpet": "",
+    "vacuum": "",
+    "manufacturer": "Pro Chem Inc.",
+    "product": "First Hand Foaming Hand Soap, Spring Meadow",
+    "website": "https://procheminc.com/products/fhf21304/",
+    "fragrance": "Yes",
+    "dilution": "",
+    "information": "",
+    "GsCertified": "Green Seal®",
+    "EcCertified": "",
+    "CarpetStyle": ""
   }
 ]
